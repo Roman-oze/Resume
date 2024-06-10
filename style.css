@@ -6,11 +6,28 @@ body{
   height: 600px;
   width: auto;
 }
+#navbarNav{
+  text-align: start;
+}
+.nav-link {
+  /* color: rgb(7, 185, 126); */
+  /* color: #CF0071; */
+  color: #b9c1bd;
+   font-size:large;
+  font-weight: 500;
+}
+.nav-link:hover{
+  color: #198754;
+  font-size:large;
+ font-weight: 500;
+
+}
 
 h3{
       color:#198754;
       font-style: italic;
   }
+
   h4{
     color: antiquewhite;
   }
@@ -113,16 +130,7 @@ background-position:top;
     border-radius: 10px;
     box-shadow: 5px 5px 10px  #07b97e;
   }
-#navbarNav{
-  text-align: start;
-}
-.nav-link {
-  /* color: rgb(7, 185, 126); */
-  /* color: #CF0071; */
-  color: #198754;
-   font-size:large;
-  font-weight: 500;
-}
+
 .logo{
   height:50px;
   width: auto;
